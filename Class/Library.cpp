@@ -157,7 +157,7 @@ void Library::viewBooksByCategory() {
         if (toLowerCase(category) == "fiction") {
             category = "Fiction";
             isValidCategory = true;
-        }else if (toLowerCase(category) == "non-fiction" || toLowerCase(category) == "non fiction") {
+        }else if (toLowerCase(category) == "non-fiction" || toLowerCase(category) == "non fiction" || toLowerCase(category) == "nonfiction") {
             category = "Non-Fiction";
             isValidCategory = true;
         }else {
